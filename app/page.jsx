@@ -14,15 +14,16 @@ export default function Home() {
           <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
             <div className="text-center xl:text-left order-2 xl:order-none">
               <span className="text-xl">Software Developer</span>
-              <h1 className="h1 mb-6">
+              <h1 className="h1">
                 Hello I'm <br />
-                <span className="text-accent">Novebrian Setya Purwanto</span>
+                <span className="text-accent">Novebrian</span>
               </h1>
+              <h2 className="h2 mb-6">
+                <span className="text-accent">Setya Purwanto</span>
+              </h2>
               <p className="max-w-[500px] mb-9 text-white/80">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Repellendus dolorem vel hic deserunt eos, unde illum quasi
-                reiciendis esse exercitationem dolores adipisci aut, animi,
-                facilis sit ipsum! Iusto, iure minus?
+                Enthusiastic Junior Web Developer with a passion for creating
+                user-friendly and engaging web applications.
               </p>
 
               <div className="flex flex-col xl:flex-row items-center gap-8">
