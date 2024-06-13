@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import PageTransition from "@/components/ui/PageTransition";
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <>
+      <PageTransition />
+      <div>Contact</div>
+    </>
+  );
+};
 
-export default Contact
+export default Contact;

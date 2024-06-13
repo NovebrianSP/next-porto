@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import PageTransition from "@/components/ui/PageTransition";
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
-  )
-}
+    <>
+      <PageTransition />
+      <div>Portfolio</div>
+    </>
+  );
+};
 
-export default Portfolio
+export default Portfolio;
