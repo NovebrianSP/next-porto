@@ -9,8 +9,8 @@ const links = [
     path: "/",
   },
   {
-    name: "about me",
-    path: "/about",
+    name: "my resume",
+    path: "/resume",
   },
   {
     name: "portfolio",

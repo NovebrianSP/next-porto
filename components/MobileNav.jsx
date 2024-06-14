@@ -9,8 +9,8 @@ const links = [
     path: "/",
   },
   {
-    name: "about me",
-    path: "/about",
+    name: "my resume",
+    path: "/resume",
   },
   {
     name: "portfolio",
@@ -20,13 +20,16 @@ const links = [
 
 const MobileNav = () => {
   const pathname = usePathname();
+  const handleSheetContentClick = () =>{
+    Sheet.close();
+  }
   return (
     <Sheet>
       <SheetTrigger className="flex justify-center items-center">
         <CiMenuFries className="text-[32px] text-accent" />
       </SheetTrigger>
 
-      <SheetContent className="flex flex-col">
+      <SheetContent className="flex flex-col" onClick={handleSheetContentClick}>
         <div className="mt-32 mb-40 text-center text-2xl">
           <Link href="/">
             <h1 className="text-4xl font-semibold">
