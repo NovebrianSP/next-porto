@@ -114,7 +114,7 @@ const Resume = () => {
                         <strong>{item.fieldName}.</strong> {item.fieldValue}
                       </p>
                     ))};
-                    {edu.date.map((item, index)=>(
+                    {edu[0].date.map((item, index)=>(
                       <p key={index}>
                         <strong>{item.fieldName}.</strong> {item.fieldValue}
                       </p>
